@@ -1,0 +1,3 @@
+Las Interfaces de Programación de Aplicaciones API actúan como puentes digitales que permiten a diferentes aplicaciones comunicarse entre sí de forma automática. Para una comunidad, esto significa transformar el caos de los chats grupales en un flujo organizado, accesible y útil de datos
+Obligan a que cada reporte (baches, luminarias rotas, basura) tenga los mismos datos obligatorios, Conectan el reporte con API de mapas para ubicar el problema en un punto exacto.
+brindando la seguridad de información  y justificación hacia el problema y la seguridad de la sociedad que navega en internet eso también nos ayuda a guardad información grafica y evidencia grafica por medio de fotos o videos 

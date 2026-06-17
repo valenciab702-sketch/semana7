@@ -1,0 +1,2 @@
+CONCEPTO GITGit es un sistema de control de versiones distribuido diseñado por Linus Torvalds para registrar cambios en archivos y coordinar el trabajo de desarrollo de software colaborativo. Su estructura permite que cada programador posea una copia local e histórica completa del proyecto, evitando la dependencia estricta de un servidor centralizado
+ayuda a guardar todos los cambios registrados y modificarlos por medios de comandos antes de ser publicados en github
