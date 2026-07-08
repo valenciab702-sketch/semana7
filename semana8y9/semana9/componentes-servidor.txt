@@ -1,0 +1,14 @@
+Sistema operativo
+Es el software principal que gestiona el hardware de la máquina (procesador, memoria, almacenamiento) y proporciona el entorno básico y los recursos necesarios para que cualquier programa o aplicación pueda ejecutarse.
+
+Node.js
+Es un entorno de ejecución para JavaScript que permite correr este lenguaje en el servidor (fuera del navegador). Actúa como el intermediario que interpreta y ejecuta el código de tu aplicación backend directamente sobre el sistema operativo.
+
+Aplicación server.js
+Es el archivo de código fuente principal donde programaste la lógica de tu servidor backend. Se encarga de recibir las peticiones de los usuarios, procesar la información (como consultar bases de datos) y enviar las respuestas correspondientes.
+
+Puerto
+Es un identificador numérico (una "puerta" virtual) en la red que se le asigna a tu aplicación. Permite que el sistema operativo sepa exactamente a qué programa debe dirigir el tráfico y las peticiones web que llegan desde el exterior.
+
+Logs
+Son el registro histórico de eventos, errores y actividades que genera tu aplicación mientras está corriendo. Sirven como una bitácora esencial para que los desarrolladores puedan rastrear fallos, auditar comportamientos y verificar que todo funcione correctamente.
