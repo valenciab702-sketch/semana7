@@ -1,0 +1,24 @@
+1. Minimización y Protección de Datos Personales
+De qué trata: No expongas datos sensibles (como correos, teléfonos o direcciones) en perfiles públicos por defecto.
+
+Cómo aplicarlo: Configura la plataforma para que los usuarios elijan qué información desean compartir y con quién. Implementa técnicas de enmascaramiento o anonimización cuando los datos deban mostrarse en listados generales.
+
+2. Robustez y Protección de Credenciales
+De qué trata: Evita el robo de cuentas obligando al uso de contraseñas fuertes y protegiéndolas desde el servidor.
+
+Cómo aplicarlo: Exige contraseñas con una longitud mínima y combinación de caracteres. Almacena las contraseñas en la base de datos usando funciones de hash seguras (como bcrypt o Argon2) y promueve activamente la Autenticación de Dos Factores (2FA).
+
+3. Cifrado en Tránsito (Conexiones Seguras)
+De qué trata: Asegura que la información que viaja entre los usuarios y la plataforma no pueda ser interceptada por terceros.
+
+Cómo aplicarlo: Implementa obligatoriamente certificados HTTPS (SSL/TLS) en todo el sitio. Configura directivas HSTS (HTTP Strict Transport Security) para forzar a los navegadores a interactuar con la plataforma únicamente de forma segura.
+
+4. Registro y Auditoría de Accesos (Logs)
+De qué trata: Mantén un historial de quién entra y qué acciones críticas se realizan dentro del sistema para detectar anomalías.
+
+Cómo aplicarlo: Registra los inicios de sesión, cambios de contraseña y modificaciones de roles. Asegúrate de guardar la fecha, la hora y la dirección IP (respetando la privacidad), pero protegiendo estos registros para que no puedan ser alterados ni siquiera por los propios administradores.
+
+5. Control de Acceso Basado en Roles (RBAC)
+De qué trata: Limita el acceso a la información sensible aplicando el principio del "menor privilegio posible".
+
+Cómo aplicarlo: No todos los usuarios o moderadores necesitan ver la base de datos completa o la configuración del servidor. Define roles claros (Usuario, Moderador, Administrador) y restringe las funciones avanzadas únicamente a quienes realmente las necesiten para operar la comunidad.
