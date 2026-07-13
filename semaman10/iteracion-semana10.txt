@@ -1,0 +1,14 @@
+A. La tarea que reduce el mayor riesgo técnico o de negocio (Spike o Prueba de Concepto)
+¿Por qué? Si hay una funcionalidad crítica que no sabemos cómo implementar o que depende de una integración de terceros desconocida, abordarla al final es una receta para el desastre. Resolver lo más difícil o incierto al principio ("fallar rápido") valida la viabilidad de todo el proyecto y evita retrasos catastróficos más adelante.
+
+B. El "Bloqueante" o la tarea de mayor valor para el usuario final (MVP core feature)
+¿Por qué? Una vez despejado el camino de los riesgos técnicos, la prioridad absoluta es entregar valor real. Priorizar la característica principal que resuelve el problema central del usuario nos permite obtener feedback temprano y real, asegurando que estamos construyendo el producto correcto.
+
+2. ¿Qué significa que una tarea esté "terminada"?
+Para mí, que una tarea esté "terminada" (el concepto de Done) significa que ha dejado de ser una promesa de valor y se ha convertido en un incremento de software real, utilizable y libre de deudas. No basta con que funcione en la máquina del desarrollador; debe estar lista para aportar valor al usuario sin necesidad de intervenciones o parches posteriores.
+
+Cumple con los requisitos: La funcionalidad resuelve el problema planteado, pasa todos los criterios de aceptación acordados con el equipo y se ve bien visualmente.
+
+Está automatizada y probada: El código cuenta con pruebas unitarias/integración que aseguran que funciona hoy y que no se romperá mañana cuando hagamos cambios.
+
+Está integrada y documentada: El código fue revisado por otro compañero (Pull Request aprobado), se fusionó en la rama principal (main / master) y cualquier cambio técnico relevante quedó registrado en la documentación del proyecto.

@@ -1,0 +1,16 @@
+1. [Prioridad: Alta] Como ciudadano quiero buscar una obra pública en mi barrio por su nombre o ubicación para conocer el presupuesto asignado y la fecha de entrega prometida.
+
+2. [Prioridad: Alta] Como veedor comunitario quiero subir fotos del estado real de la construcción para contrastar visualmente el avance real frente al reporte oficial de los contratistas.
+
+3. [Prioridad: Media] Como vecino afectado por una obra quiero suscribirme a notificaciones de cierres viales o cortes de servicios programados para planificar mis rutas y actividades con anticipación.
+
+4. [Prioridad: Media] Como coordinador de la veeduría quiero descargar un informe consolidado de irregularidades (retrasos, materiales defectuosos) para radicar una queja formal ante los entes de control del Estado.
+
+5. [Prioridad: Baja] Como ciudadano quiero calificar con estrellas el desempeño general de la constructora encargada para generar un histórico de reputación de los contratistas en la localidad.
+
+
+Prioridad Alta (Casos 1 y 2): Son la base del control social. Para auditar, el ciudadano primero necesita saber qué se está construyendo y cuánto cuesta (Acceso a la información), y luego necesita poder contrastar e informar si la realidad coincide con la teoría (Evidencia técnica).
+
+Prioridad Media (Casos 3 y 4): Facilitan la vida diaria de los vecinos y permiten escalar los hallazgos a las autoridades formales una vez identificadas las anomalías.
+
+Prioridad Baja (Caso 5): La reputación de los contratistas es útil para futuros contratos (nice-to-have), pero no resuelve de forma inmediata el control del proyecto actual en ejecución.

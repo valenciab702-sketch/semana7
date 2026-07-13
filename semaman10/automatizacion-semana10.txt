@@ -1,0 +1,21 @@
+Flujo de Automatización con n8n y Telegram
+
+¿Qué evento activa el flujo?
+
+  - Evento (Webhook / Trigger): Alerta de desvío presupuestal o retraso crítico en una obra pública. Se activa automáticamente cuando un veedor comunitario registra un reporte y el sistema detecta que el porcentaje de avance físico es significativamente menor al programado, o cuando se reporta un posible mal manejo de recursos.
+
+¿Qué mensaje se enviaría a Telegram?
+
+  - Mensaje:
+    "⚠️ Alerta de Veeduría: Se ha registrado una anomalía crítica en la obra del sector [Nombre del Barrio/Zona].
+      - Tipo: Retraso en cronograma / Presunta irregularidad técnica.
+      - Código de Obra: #OBRA-2026-XYZ
+      - Por favor, ingresar al panel de control para revisar las evidencias fotográficas y el estado actual."
+
+¿Qué información no debería enviarse por seguridad?
+Por cumplimiento de políticas de privacidad y protección de datos, bajo ninguna circunstancia se incluirán en el mensaje de Telegram:
+
+  - Nombres completos, identificaciones o alias de los ciudadanos o veedores que realizaron la denuncia (para evitar represalias).
+  - Números telefónicos o correos electrónicos de contacto.
+  - Datos personales de los ingenieros o trabajadores de la obra.
+  - Claves de acceso, tokens del sistema o enlaces directos que no requieran autenticación previa.

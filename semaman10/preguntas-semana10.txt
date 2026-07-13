@@ -1,0 +1,35 @@
+¿Qué es un backlog en un proyecto de software?
+
+A. Un error del servidor.
+B. Una lista priorizada de tareas o funcionalidades por desarrollar.
+C. Una carpeta del sistema operativo.
+D. Un archivo PDF.
+
+RESPUESTA: B
+
+¿Qué describe mejor una historia de usuario?
+
+A. Una foto del proyecto.
+B. Una forma breve de expresar qué necesita un usuario y para qué lo necesita.
+C. Un comando de terminal.
+D. Un tipo de base de datos.
+
+RESPUESTA:B
+
+¿Cuál es el propósito principal de n8n en esta semana?
+
+A. Diseñar interfaces gráficas avanzadas.
+B. Automatizar tareas repetitivas y notificaciones de seguimiento no sensibles.
+C. Reemplazar completamente Node.js.
+C. Crear sistemas operativos.
+
+RESPUESTA: A
+
+¿Para qué puede servir Telegram en esta semana?
+
+A. Solo para enviar stickers.
+B. Como canal de coordinación, convocatoria y notificación comunitaria.
+C. Para reemplazar Git.
+D. Para instalar bases de datos.
+
+RESPUESTA: B
