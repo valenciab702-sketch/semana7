@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Comunitaria - Causas Ciudadanas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        /* Estilos del Formulario */
+        .form-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .btn-submit {
+            background-color: #2ecc71;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: bold;
+        }
+        .btn-submit:hover {
+            background-color: #27ae60;
+        }
+        /* Estilos de la Vista de Causas */
+        .causes-list {
+            display: grid;
+            gap: 20px;
+        }
+        .cause-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-left: 5px solid #3498db;
+        }
+        .cause-title {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .cause-date {
+            font-size: 0.85em;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        .cause-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+        }
+        .counter {
+            font-weight: bold;
+            color: #555;
+        }
+        .btn-support {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn-support:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Plataforma de Causas Comunitarias</h1>
+
+        <!-- 1. Formulario para crear una causa -->
+        <section class="form-section">
+            <h2>Crear una Nueva Causa</h2>
+            <form>
+                <div class="form-group">
+                    <label for="titulo">Título de la causa</label>
+                    <input type="text" id="titulo" placeholder="Ej. Mejorar el parque del barrio" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción</label>
+                    <textarea id="descripcion" rows="4" placeholder="Describe brevemente la necesidad comunitaria..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha de finalización</label>
+                    <input type="date" id="fecha" required>
+                </div>
+                <button type="submit" class="btn-submit">Crear Causa</button>
+            </form>
+        </section>
+
+        <!-- 2. Vista de causas disponibles -->
+        <section>
+            <h2>Causas Disponibles</h2>
+            <div class="causes-list">
+                
+                <!-- Tarjeta de ejemplo 1 -->
+                <div class="cause-card">
+                    <h3 class="cause-title">Reforestación de la zona verde norte</h3>
+                    <p class="cause-date">Finaliza el: 25 de Agosto, 2026</p>
+                    <p>Queremos plantar 50 árboles nativos en el espacio comunal abandonado para recuperar la sombra y la biodiversidad local.</p>
+                    <div class="cause-footer">
+                        <!-- Contador de apoyos -->
+                        <span class="counter">👍 <span id="count-1">24</span> apoyos</span>
+                        <!-- Botón para apoyar -->
+                        <button class="btn-support" onclick="alert('¡Gracias por tu apoyo anónimo!')">Apoyar causa</button>
+                    </div>
+                </div>
+
+                <!-- Tarjeta de ejemplo 2 -->
+                <div class="cause-card">
+                    <h3 class="cause-title">Instalación de luminarias solares en el callejón principal</h3>
+                    <p class="cause-date">Finaliza el: 10 de Septiembre, 2026</p>
+                    <p>Proyecto para iluminar de manera sostenible el paso peatonal que conecta la escuela con la avenida principal para mayor seguridad.</p>
+                    <div class="cause-footer">
+                        <span class="counter">👍 <span id="count-2">42</span> apoyos</span>
+                        <button class="btn-support" onclick="alert('¡Gracias por tu apoyo anónimo!')">Apoyar causa</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+============================================================
+DISEÑO DE MODELO DE DATOS - PLATAFORMA COMUNITARIA
+============================================================
+
+------------------------------------------------------------
+Entidad: Causa
+------------------------------------------------------------
+Campos principales:
+- id: 101 (Entero, Clave Primaria)
+- titulo: "Reforestación del Parque Central" (Texto)
+- descripcion: "Proyecto comunitario para plantar 500 árboles nativos en la zona norte del parque, recuperar las áreas verdes destruidas por la sequía y crear una jornada de concientización ambiental para los vecinos." (Texto)
+- fecha_creacion: 2026-07-14 09:00:00 (Fecha/Hora)
+- estado: "activa" (Texto)
+
+Propósito:
+Almacenar y gestionar las causas o proyectos de impacto social creados por la comunidad para que puedan ser visualizados por otros usuarios en la plataforma.
+
+------------------------------------------------------------
+Entidad: Apoyo
+------------------------------------------------------------
+Campos principales:
+- id: 5001 (Entero, Clave Primaria)
+- causa_id: 101 (Entero, Clave Foránea -> Relacionado con la causa de Reforestación)
+- usuario: "carlos_verde99" (Texto -> Nombre de usuario del participante)
+- fecha: 2026-07-14 10:15:30 (Fecha/Hora)
+
+Propósito:
+Registrar de manera histórica cada muestra de apoyo o "voto" que recibe una causa específica, permitiendo medir su popularidad y el nivel de participación de la comunidad.
