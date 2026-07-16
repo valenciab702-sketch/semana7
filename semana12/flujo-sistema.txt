@@ -1,0 +1,21 @@
+Creación de la Causa (Clic 1): Un ciudadano ingresa al sistema, completa un formulario simple con el título, descripción y categoría de su causa, y la publica instantáneamente.
+
+Registro en Base de Datos: El sistema procesa la solicitud, almacena los datos de la causa con un identificador único y la hace visible públicamente en la plataforma.
+
+Apoyo de la Comunidad (Clic 2): Otros ciudadanos interesados navegan por la plataforma, encuentran la causa y presionan el botón "Apoyar" ingresando su nombre o firma digital básica.
+
+Validación y Conteo: El sistema valida que el usuario no haya apoyado previamente la misma causa, incrementa el contador de apoyos en tiempo real y registra la fecha de cada firma.
+
+Generación del Documento (Clic 3): Al alcanzar una meta establecida o a solicitud del creador, este presiona un botón para que el sistema genere automáticamente un documento PDF formal con el contenido de la petición y el listado de todos los firmantes.Entidad: Causa
+----------------------------------------
+id           (Entero, Clave Primaria) -> Identificador único de cada causa.
+titulo       (Texto)                  -> Nombre o encabezado llamativo de la petición.
+descripcion  (Texto Largo)            -> Detalle explicativo de la problemática y la solicitud.
+fecha        (Fecha/Hora)             -> Momento exacto en el que se creó la causa.
+
+Entidad: Apoyo
+----------------------------------------
+id           (Entero, Clave Primaria) -> Identificador único de cada firma/apoyo.
+causa_id     (Entero, Clave Foránea)  -> Relación que vincula el apoyo con una Causa específica.
+nombre       (Texto)                  -> Nombre completo del ciudadano que firma.
+fecha        (Fecha/Hora)             -> Momento exacto en el que se registró el apoyo.v
